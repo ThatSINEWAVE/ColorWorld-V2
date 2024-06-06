@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorWorld</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5.5.2/dist/iro.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+  </head>
+  <body>
+    <header>
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+      </label>
+    </header>
+    <div class="container">
+        <h1 id="mainTitle">ColorWorld V2</h1>
+      <div class="color-picker-wrapper">
+        <div id="colorPicker"></div>
+      </div>
+      <div class="color-values">
+        <div class="color-value">
+          <label for="hexValue">HEX</label>
+          <input type="text" id="hexValue">
+          <button id="hexCopyBtn">
+            <i class="far fa-clipboard"></i>
+          </button>
+        </div>
+        <div class="color-value">
+          <label for="rgbValue">RGB</label>
+          <input type="text" id="rgbValue">
+          <button id="rgbCopyBtn">
+            <i class="far fa-clipboard"></i>
+          </button>
+        </div>
+        <div class="color-value">
+          <label for="hslValue">HSL</label>
+          <input type="text" id="hslValue">
+          <button id="hslCopyBtn">
+            <i class="far fa-clipboard"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://ko-fi.com/thatsinewave" target="_blank">
+        <i class="fas fa-heart"></i>
+      </a>
+      <a href="https://github.com/ThatSINEWAVE/ColorWorld-V2" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
