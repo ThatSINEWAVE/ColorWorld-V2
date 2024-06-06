@@ -1,8 +1,10 @@
 <div align="center">
 
-# [ColorWorld V2](https://thatsinewave.github.io/ColorWorld-V2/)****
+# [ColorWorld V2](https://thatsinewave.github.io/ColorWorld-V2/)
 
 ColorWorld V2 is a web-based color picker application that allows users to select and manipulate colors in various formats including HEX, RGB, and HSL. The app also includes features such as theme toggling and a hidden Easter egg theme.
+
+![ColorWorld-V2](https://github.com/ThatSINEWAVE/ColorWorld-V2/assets/133239148/23fcb2da-2e9f-49c9-a5cb-19d9e5df6ec4)
 
 </div>
 
