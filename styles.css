@@ -210,17 +210,19 @@ body.dark-theme footer a {
 body.hidden-theme {
     background: #ff0000;
     color: #fff;
+    border-radius: 0px;
 }
 
 body.hidden-theme .container {
     background: #0000FF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
 }
 
 body.hidden-theme #mainTitle {
     font-family: 'Permanent Marker', cursive;
     font-size: 3rem;
-    color: #ff6e7f;
+    color: #00FF00;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -228,21 +230,46 @@ body.hidden-theme .color-value input {
     border: 1px solid #ccc;
     background-color: #00FF00;
     color: #333;
+    border-radius: 0px;
 }
 
 body.hidden-theme .color-value button {
-    background-color: #3498db;
+    background-color: #ff0000;
     color: #fff;
+    border-radius: 0px;
 }
 
 body.hidden-theme .color-value button:hover {
-    background-color: #2980b9;
+    background-color: #000;
 }
 
 body.hidden-theme .color-value button.copied {
-    background-color: #2ecc71;
+    background-color: #00FF00;
 }
 
 body.hidden-theme footer a {
-    color: #333;
+    color: #00FF00;
+}
+
+body.hidden-theme .switch {
+    background-color: #00ff00;
+    border-radius: 0px;
+}
+
+body.hidden-theme .slider {
+    background-color: #00ff00;
+    border-radius: 0px;
+}
+
+body.hidden-theme .slider:before {
+    background-color: #ff0000;
+    border-radius: 0px;
+}
+
+body.hidden-theme input:checked + .slider {
+    background-color: #0000FF;
+}
+
+body.hidden-theme input:checked + .slider:before {
+    background-color: #00FF00;
 }
